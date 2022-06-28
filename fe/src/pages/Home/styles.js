@@ -2,12 +2,32 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   margin-top: 32px;
+  position: relative;
+`;
+
+export const InputSearchContainer = styled.div`
+    width: 100%;
+
+  input {
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    padding: 0 16px;
+
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.04);
+    outline: 0;
+    &::placeholder {
+      color: #BCBCBC;
+    }
+  }
 `;
 
 export const Header = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 32px;
   strong {
     font-weight: 700;
     font-size: 24px;
