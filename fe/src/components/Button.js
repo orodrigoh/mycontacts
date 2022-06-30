@@ -6,7 +6,7 @@ export default styled.button`
   background: ${({ theme }) => theme.colors.primary.main};
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.04);
   border-radius: 4px;
-
+  width: 100%;
   font-size: 1rem;
   color: #fff;
   font-weight: 700;
